@@ -34,12 +34,16 @@ const Navbar = () => {
                     <li className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500"><a href="#">Company</a></li>
                     <li className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500"><a href="#">Resources</a></li>
                     <li className="p-4 hover:text-[#8FE4FF] duration-500"><a href="#">Contact</a></li> */}
+                    
+                    <li><Link className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500" to='about'>About</Link></li>
 
-                    <Link className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500" to='about'>About</Link>
+                    <li><Link className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500" to='blogs'>Blogs</Link></li>
 
-                    <Link className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500" to='blogs'>Blogs</Link>
+                    <li><Link className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500" to='contacts'>Contacts</Link></li>
 
-                    <Link className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500" to='contacts'>Contacts</Link>
+                    
+
+                    
                     
                     
                     
