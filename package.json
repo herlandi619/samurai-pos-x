@@ -2,7 +2,7 @@
   "name": "landing-page-dua",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://herlandi619.github.io/samurai-pos-x/hero",
+  "homepage": "https://herlandi619.github.io/samurai-pos-x/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

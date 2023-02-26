@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <div className="text-[#8FE4FF] flex justify-between items-center h-24 max-w-[1240px] mx-auto p-10">
-            <Link className="w-full text-3xl font-bold text-[#8FE4FF]" to='/hero'>Samurai POS-X</Link>
+            <Link className="w-full text-3xl font-bold text-[#8FE4FF]" to='/'>Samurai POS-X</Link>
             <ul className="hidden md:flex">
                 
                 <Link className="p-5 pt-7 text-xl font-semibold hover:text-slate-300 duration-500" to='about'>About</Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
 
             <div className={!nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500" : "fixed left-[-100%]"}>
-            <Link className="w-full text-2xl font-bold text-[#8FE4FF] p-4" to='/hero'>Samurai POS-X</Link>  
+            <Link className="w-full text-2xl font-bold text-[#8FE4FF] p-4" to='/'>Samurai POS-X</Link>  
                 <ul className="flex p-3">
                     
                     {/* <li className="p-4 border-b border-gray-600 hover:text-[#8FE4FF] duration-500"><a href="#">About</a></li>
