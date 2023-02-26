@@ -12,7 +12,8 @@ const Navbar = () => {
     }
 
     return (
-        <div className="text-[#8FE4FF] flex justify-between items-center h-24 max-w-[1240px] mx-auto p-10">
+        <div className="bg-slate-200">
+        <div className="text-[#8FE4FF] flex justify-between items-center h-24 max-w-[1240px] mx-auto p-10 ">
             <Link className="w-full text-3xl font-bold text-[#8FE4FF]" to='/'>Samurai POS-X</Link>
             <ul className="hidden md:flex">
                 
@@ -51,7 +52,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </div>
-
+    </div>
     )
 }
 
