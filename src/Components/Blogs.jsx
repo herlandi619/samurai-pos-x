@@ -9,12 +9,13 @@ const Blogs = () => {
       <div className='p-16 mx-auto lg:w-1/2'>
         
         <img src={blogs} alt="about" width={300} className='mx-auto' />
-        <p className='text-xl font-semibold text-center my-3 text-slate-700 mb-5'>Lorem ipsum dolor sit amet.</p>
+        <p className='text-xl font-semibold text-center my-3 text-slate-700 mb-5 font-karsha'>Hardware</p>
       </div>
     
-    <div className='p-16 lg:w-1/2'>
-      <h1 className='text-4xl font-semibold font-[Poppins] text-slate-700 text-center my-5 '>Blogs Kami</h1>
-      <p className='text-md text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odio amet optio nisi eveniet iusto atque quo, nobis beatae rerum doloremque corporis deserunt aliquam. Maiores doloremque dicta pariatur veritatis aspernatur?</p>
+    <div className='pb-20 lg:w-1/2 lg:p-24'>
+      <h1 className='text-5xl font-semibold font-[Poppins] text-slate-900 text-center my-5 font-karsha '>-Hardware Kami-</h1>
+      <p className='text-xl lg:text-2xl text-slate-700 px-12 font-karsha '>Hardware pelengkap mesin kasir untuk bisnis Anda dan Memudahkan semua urusan transaksi penjualan</p>
+      
     </div>
 
     

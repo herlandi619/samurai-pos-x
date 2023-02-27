@@ -7,6 +7,7 @@ module.exports = {
     fontFamily: {
       'font-family': ['Poppins', 'sans-serif'],
       'font-family': ['Roboto', 'sans-serif'],
+      'karsha': ['karsha','cursive'],
     },
     extend: {
       backgroundImage: {
