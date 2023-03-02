@@ -30,9 +30,6 @@ const Blogs = () => {
       <p data-aos="fade-left" className='text-xl lg:text-2xl text-slate-700 px-12 md:text-xl '>Hardware pelengkap mesin kasir untuk bisnis Anda dan Memudahkan semua urusan transaksi penjualan</p>
       
     </div>
-
-    
-
    </div>
   )
 }
