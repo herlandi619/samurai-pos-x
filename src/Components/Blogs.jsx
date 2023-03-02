@@ -27,7 +27,7 @@ const Blogs = () => {
     
     <div className='pb-20 lg:w-1/2 lg:p-24'>
       <h1 data-aos="fade-left" className='text-5xl font-semibold font-[Poppins] text-slate-900 text-center my-5 font-[Golos Text] '>-Hardware Kami-</h1>
-      <p data-aos="fade-left" className='text-xl lg:text-2xl text-slate-700 px-12 text-xl '>Hardware pelengkap mesin kasir untuk bisnis Anda dan Memudahkan semua urusan transaksi penjualan</p>
+      <p data-aos="fade-left" className='text-xl lg:text-2xl text-slate-700 px-12 md:text-xl '>Hardware pelengkap mesin kasir untuk bisnis Anda dan Memudahkan semua urusan transaksi penjualan</p>
       
     </div>
 
