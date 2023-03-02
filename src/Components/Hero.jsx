@@ -5,12 +5,12 @@ import hero from '../img/hero.png'
 const Hero = () => {
   return (
     
-    <div className='py-5 lg:flex xl:flex 2xl:flex'>
+    <div className=' lg:flex xl:flex 2xl:flex'>
 
         <div className='p-20 '>
             <h1 className='text-2xl font-semibold font-[Golos Text] text-slate-700 text-center md:text-3xl lg:text-4xl'>Atur Kasir Lebih Mudah</h1>
 
-            <h1 className='text-4xl font-semibold font-[Golos Text] text-slate-700 text-center  md:text-5xl lg:text-5xl'>Dengan <span className='text-[#8FE4FF]'>MOKA</span> POS</h1>
+            <h1 className='text-4xl font-semibold font-[Golos Text] text-slate-700 text-center  md:text-5xl lg:text-5xl'>Dengan <span className='text-[#8FE4FF]'>X-SM</span> POS</h1>
 
             <h3 className='text-slate-700  text-center my-5 md:text-md lg:text-xl'>Kami Membantu Bisnis Anda Mempercepat Proses Penjualan Dengan Aplikasi Kasir MOKA</h3>
 
