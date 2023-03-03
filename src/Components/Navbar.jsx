@@ -7,9 +7,13 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(true)
 
+
+
     const handleNav = () => {
         setNav(!nav)
     }
+    
+  
 
     return (
         <div className="bg-slate-900">
@@ -24,7 +28,7 @@ const Navbar = () => {
 
                 </ul>
 
-                <div onClick={handleNav} className="block md:hidden">
+                <div onClick={handleNav} className="block md:hidden ">
                     {!nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
                 </div>
 

@@ -17,17 +17,17 @@ const Hero = () => {
 
   return (
     
-    <div className=' lg:flex xl:flex 2xl:flex'>
+    <div className='bg-[#8FE4FF] lg:flex xl:flex 2xl:flex'>
 
         <div data-aos="fade-right" className='p-20 '>
             <h1 className='text-2xl font-semibold cover-full font-[Golos Text] text-slate-700 text-center md:text-3xl lg:text-4xl'>Atur Kasir Lebih Mudah</h1>
 
-            <h1 className='text-4xl font-semibold font-[Golos Text] text-slate-700 text-center  md:text-5xl lg:text-5xl'>Dengan <span className='text-[#8FE4FF]'>X-SM</span> POS</h1>
+            <h1 className='text-4xl font-semibold font-[Golos Text] text-slate-700 text-center  md:text-5xl lg:text-5xl'>Dengan <span className='text-gray-100'>X-SM</span> POS</h1>
 
             <h3 className='text-slate-700  text-center my-5 md:text-md lg:text-xl'>Kami Membantu Bisnis Anda Mempercepat Proses Penjualan Dengan Aplikasi Kasir MOKA</h3>
 
             <span className='flex justify-center'>
-            <button className='py-3 px-3 bg-[#8FE4FF] text-white font-[Golos Text] rounded-xl shadow-xl items-center my-2 hover:scale-105 duration-300 '>COBA GRATIS SEKARANG</button>
+            <button className='py-3 px-3 bg-gray-100 text-slate-800 font-[Golos Text] rounded-xl shadow-xl items-center my-2 hover:scale-105 duration-300 '>COBA GRATIS SEKARANG</button>
             </span>
 
                 <div className='flex justify-center'>

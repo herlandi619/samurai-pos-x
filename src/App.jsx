@@ -34,7 +34,7 @@ const App = () => {
        <div>
    
 
-        <div className='p-24 mx-auto bg-slate-900'>
+        <div className='p-24 mx-auto bg-gradient-to-t from-[#8FE4FF] to-slate-900'>
         
           <h1 data-aos="fade-up" className='text-lg p-2 text-[#8FE4FF] font-bold text-center  rounded-lg max-w-sm mx-auto md:text-2xl'>Aplikasi kasir online</h1>
 
@@ -51,7 +51,7 @@ const App = () => {
 
 
           <span className='flex justify-center p-5'>
-          <button data-aos="fade-up" className='mx-auto py-3 px-16 bg-[#8FE4FF] text-slate-100 font-bold text-xl rounded-xl shadow-slate-100 mt-3 hover:scale-105 duration-300 '>Get Started</button>
+          <button data-aos="fade-up" className='mx-auto py-3 px-16 bg-[#8FE4FF] text-gray-100 font-bold text-xl rounded-xl drop-shadow-md mt-3 hover:scale-105 duration-300 '>Get Started</button>
           </span>
           <div className='py-12'></div>
         </div>

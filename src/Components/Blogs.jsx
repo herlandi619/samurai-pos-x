@@ -17,7 +17,7 @@ const Blogs = () => {
   }, [])
 
   return (
-    <div className='mx-auto lg:flex justify-center'>
+    <div className='mx-auto lg:flex justify-center bg-[#8FE4FF]'>
 
       <div className='p-16 mx-auto lg:w-1/2'>
         

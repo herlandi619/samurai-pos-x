@@ -18,7 +18,7 @@ const About = () => {
 
   return (
 
-   <div>
+   <div className='bg-[#8FE4FF]'>
 
     <div className='mx-auto lg:flex justify-center'>
 
@@ -51,7 +51,7 @@ Kami juga paham bahwa sebuah ekosistem solusi usaha harus diciptakan sehingga Mo
  
     </div>
 
-    <div className='my-16'></div>
+    
 
 
    </div>
