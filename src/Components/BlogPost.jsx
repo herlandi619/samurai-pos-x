@@ -1,8 +1,12 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component  } from 'react';
 import Post from './Post';
 import axios from 'axios';
 
+
+
+
 class BlogPost extends Component {
+
 
     state = {
         post: [],
@@ -122,6 +126,8 @@ class BlogPost extends Component {
 
         this.getPostAPI();
 
+       
+
     }
 
     render() {
@@ -129,13 +135,13 @@ class BlogPost extends Component {
             <div className='bg-[#8FE4FF]'>
                <div>
                     <div className='w-[80%] mx-auto'>
-                    <p className='font-semibold text-3xl text-slate-100 text-center p-12 mx-auto'>-Daftar Register-</p>
+                    <p className='font-semibold text-3xl text-slate-100 text-center p-12 mx-auto'>-Register-</p>
                     <hr className='mx-auto'/>
                     </div>
                 </div>
   
 
-                <div className='grid w-2/3 md:w-1/3 xl:w-1/3 mx-auto  p-5 rounded-lg shadow-lg bg-white my-5 font-semibold'>
+                <div data-aos='fade-left' className='grid w-2/3 md:w-1/3 xl:w-1/3 mx-auto  p-5 rounded-lg shadow-lg bg-white my-5 font-semibold'>
                     <label htmlFor="title" className=''>Username :</label>
                     <input type="text" name='title' value={this.state.formBlogPost.title} placeholder='Masukan Nama' className='border-2 my-3 ' onChange={this.handleFormChange} />
 
@@ -143,7 +149,7 @@ class BlogPost extends Component {
                     <input type="text" name='email' value={this.state.formBlogPost.email} placeholder='Masukan Email' className='border-2 my-3 ' onChange={this.handleFormChange} />
 
                     <label htmlFor="title" className=''>Password :</label>
-                    <input type="text" name='password' value={this.state.formBlogPost.password} placeholder='Masukan Password' className='border-2 my-3 ' onChange={this.handleFormChange} />
+                    <input type="password" name='password' value={this.state.formBlogPost.password} placeholder='Masukan Password' className='border-2 my-3 ' onChange={this.handleFormChange} />
                     
                     <button className='btn-submit  bg-red-500 rounded-lg text-white hover:scale-105 mx-auto w-[120px] h-[40px] duration-100' onClick={this.handleSubmit} >Submit</button>
                 </div>
