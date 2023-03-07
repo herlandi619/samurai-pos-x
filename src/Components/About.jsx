@@ -41,7 +41,7 @@ Kami juga paham bahwa sebuah ekosistem solusi usaha harus diciptakan sehingga Mo
 
     <div className='p-16 mx-auto lg:w-1/2'>
     
-      <img data-aos="fade-left" src={topeng} alt="about" width={270} className='mx-auto' />
+      <img data-aos="fade-left" src={topeng} alt="about" width={270} className='mx-auto hover:csa' />
 
       <p data-aos="fade-left" className="py-5 text-base text-slate-700 md:text-xl">Itulah kenapa kami mendesain sebuah aplikasi kasir yang bisa diunduh dari handphone dengan dasbor untuk memantau laporan penjualan harian secara real-time.</p>
 

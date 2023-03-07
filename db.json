@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1678154535577,
+      "title": "renold herlandi",
+      "password": "herland002",
+      "userId": 1,
+      "email": "herlandi619@gmail.com"
+    },
+    {
+      "id": 1678154558511,
+      "title": "vava alamsyah2",
+      "password": "vava002",
+      "userId": 1,
+      "email": "vavalamsyah@gmail.com"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import hero from '../img/hero.png'
 //aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
@@ -27,7 +28,7 @@ const Hero = () => {
             <h3 className='text-slate-700  text-center my-5 md:text-md lg:text-xl'>Kami Membantu Bisnis Anda Mempercepat Proses Penjualan Dengan Aplikasi Kasir MOKA</h3>
 
             <span className='flex justify-center'>
-            <button className='py-3 px-3 bg-gray-100 text-slate-800 font-[Golos Text] rounded-xl shadow-xl items-center my-2 hover:scale-105 duration-300 '>COBA GRATIS SEKARANG</button>
+            <Link  className='py-3 px-3 bg-gray-100 text-slate-800 font-[Golos Text] rounded-xl shadow-xl items-center my-2 hover:scale-105 duration-300 ' to='/blogpost'>COBA GRATIS SEKARANG</Link>
             </span>
 
                 <div className='flex justify-center'>

@@ -18,13 +18,14 @@ const Navbar = () => {
     return (
         <div className="bg-slate-900">
             <div className="text-[#8FE4FF] flex justify-between items-center h-24 max-w-[1240px] mx-auto p-10 ">
-                <Link className="w-full text-3xl font-[Golos] text-[#8FE4FF]" to='/'>X-SM</Link>
+                <Link className="block text-3xl font-[Golos] text-[#8FE4FF]" to='/'>X-SM</Link>
                 <ul className="hidden md:flex">
 
                     <Link className="p-5 pt-7 text-xl font-[Golos Text] hover:text-slate-300 duration-500" to='hero'>Home</Link>
                     <Link className="p-5 pt-7 text-xl font-[Golos] hover:text-slate-300 duration-500" to='about'>About</Link>
                     <Link className="p-5 pt-7 text-xl font-[Golos] hover:text-slate-300 duration-500" to='blogs'>Hardware</Link>
                     <Link className="p-5 pt-7 text-xl font-[Golos] hover:text-slate-300 duration-500" to='contacts'>Contacts</Link>
+                    {/* <Link className="p-5 pt-7 text-xl font-[Golos] hover:text-slate-300 duration-500" to='blogpost'>BlogPost</Link> */}
 
                 </ul>
 
@@ -43,6 +44,8 @@ const Navbar = () => {
                     <li className="p-2 border-b border-gray-600 hover:text-white duration-500"><Link to='blogs'>Hardware</Link></li>
 
                     <li className="p-2 border-b border-gray-600 hover:text-white duration-500"><Link to='contacts'>Contact</Link></li> 
+
+                    {/* <li className="p-2 border-b border-gray-600 hover:text-white duration-500"><Link to='blogpost'>BlogPost</Link></li>  */}
                 </ul>
             </div>
             </div>
